@@ -1,0 +1,26 @@
+.countdown-container {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 1024px) and (orientation: landscape) {
+  .countdown-container {
+    width: 80vw;
+    height: 80vh;
+  }
+}
+.countdown-header {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+@media (min-width: 1024px) and (orientation: landscape) {
+  .countdown-header {
+    font-size: 2rem;
+  }
+}
